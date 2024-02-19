@@ -1,7 +1,7 @@
 # TheHiddenPagesofNS
 Access the sneaky NS pages with some easy hotkeys
 
-Have you ever wanted to go to the GHR page, or the Challenge Page, but had to type it into the URL bar yourself! Well fear no more! With these super easy hotkeys, you'll be zooming about in no time!
+Have you ever wanted to go to the GHR page, or the Challenge Page, but had to type it into the URL bar yourself? Well fear no more! With these super easy hotkeys, you'll be zooming about in no time!
 
 **Hotkeys**
 * Alt+1 - Getting Help Page
