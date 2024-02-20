@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          Hidden Pages of NS
-// @version       1.0
+// @version       1.1
 // @description   Access the sneaky NS pages with some easy hotkeys
 // @author        Ambis
 // @match         https://www.nationstates.net/*
@@ -14,40 +14,46 @@
 * Alt+4 - Cards Against NationStates Page
 * Alt+5 - Daily Dumps Page
 * Alt+6 - Boneyard
+* Alt+7 - Polls Page
 */
 
 (function () {
    'use strict';
 
     window.addEventListener('keyup',function(e) {
-        // Check if Alt+1 is pressed
+        // Getting Help Page
         if (e.altKey && e.code === 'Digit1') {
             window.location.href = 'https://nationstates.net/page=help';
         }
 
-        // Check if Alt+2 is pressed
+        // Challenge Page
         if (e.altKey && e.code === 'Digit2') {
             window.location.href = 'https://www.nationstates.net/page=challenge';
         }
 
-         // Check if Alt+3 is pressed
+         // API Documentation Page
         if (e.altKey && e.code === 'Digit3') {
             window.location.href = 'https://www.nationstates.net/pages/api.html';
         }
 
-         // Check if Alt+4 is pressed
+         // Cards Against NationStates Page
         if (e.altKey && e.code === 'Digit4') {
             window.location.href = 'https://www.nationstates.net/page=cards';
         }
 
-         // Check if Alt+5 is pressed
+         // Daily Dumps Page
         if (e.altKey && e.code === 'Digit5') {
             window.location.href = 'https://www.nationstates.net/page=archive';
         }
 
-         // Check if Alt+6 is pressed
+         // Boneyard
         if (e.altKey && e.code === 'Digit6') {
             window.location.href = 'https://www.nationstates.net/page=boneyard';
+        }
+
+        // Polls Page
+        if (e.altKey && e.code === 'Digit7') {
+            window.location.href = 'https://www.nationstates.net/page=polls';
         }
      });
 })();
