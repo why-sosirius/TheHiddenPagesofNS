@@ -6,6 +6,7 @@ Have you ever wanted to go to the GHR page, or the Challenge Page, but had to ty
 Is this a useless script? Maybe. But it's my useless script.
 
 **Hotkeys**
+* Alt+0 - Main User Page
 * Alt+1 - Getting Help Page
 * Alt+2 - Challenge Page
 * Alt+3 - API Documentation Page
